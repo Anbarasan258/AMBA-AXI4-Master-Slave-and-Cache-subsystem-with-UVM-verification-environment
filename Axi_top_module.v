@@ -6,7 +6,7 @@ module Axi_top (clk,resetn,wr_start_in,wid_in,wr_address_in,wr_burst_length_in,w
   
   input   clk;
   input   resetn;
-    
+  
     // Master Testbench Control Interface (Writes)
   input wr_start_in;
   input [3:0] wid_in;
